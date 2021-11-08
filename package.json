@@ -10,8 +10,8 @@
     "start": "vercel dev",
     "start:dev": "concurrently \"remix dev\" \"tailwindcss --output ./app/styles/tailwind.css --watch\" ",
     "start:dev:vercel": "concurrently \"vercel dev\" \"remix watch\" \"tailwindcss --output ./app/styles/tailwind.css --watch\" ",
-    "preview": "yarn build; tailwindcss --output ./app/styles/tailwind.css --minify; vercel",
-    "deploy": "yarn build; tailwindcss --output ./app/styles/tailwind.css --minify; vercel --prod"
+    "preview": "npm run build; tailwindcss --output ./app/styles/tailwind.css --minify; vercel",
+    "deploy": "npm run build; tailwindcss --output ./app/styles/tailwind.css --minify; vercel --prod"
   },
   "dependencies": {
     "@remix-run/react": "^0.20.1",
