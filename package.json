@@ -12,7 +12,6 @@
     "start:dev": "npm-run-all -p watch:css dev:start",
     "preview": "npm-run-all -s build:css build; vercel",
     "deploy": "npm-run-all -s build:css build; vercel --prod",
-    "start:dev:vercel": "npm-run-all -p watch:css vercel:start",
     "watch:css": "tailwindcss --output ./app/styles/tailwind.css --watch",
     "build:css": "tailwindcss --output ./app/styles/tailwind.css --minify"
   },
