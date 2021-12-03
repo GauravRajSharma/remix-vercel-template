@@ -1,7 +1,12 @@
-# Welcome to Remix!
+# Welcome to Vercel Remix Template!
 
 - [Remix Docs](https://docs.remix.run)
-- [Customer Dashboard](https://remix.run/dashboard)
+
+## How to use this template
+
+```bash
+npx degit GauravRajSharma/remix-vercel-template  'my-project-name'
+```
 
 ## Vercel Setup
 
